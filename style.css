@@ -42,7 +42,7 @@ a{
 .img-circle {
   width: auto;
   border-radius: 50%;
-  border: 1px solid #4008f7;
+  border: 1px solid #45f0dfff;
   width:  500px;
   margin: 0 auto;
 }
@@ -53,11 +53,11 @@ a{
 }
 
 .card-1, .card-2, .card-3 {
-  background-color: #b5a5ec;
+  background-color: #c2cae8ff;
   padding: 20px;
   margin: 20px 0;
   text-align: center;
-  border: 4px solid #4008f7;
+  border: 4px solid #0d21a1ff;
   width: 500px;
   border-radius: 10px;
 }
@@ -71,8 +71,21 @@ a{
   padding-left: 0px
 }
 
-.btn-blue{
+.btn-red {
+  display: inline-block;
+  background-color: #af3e4dff;
+  color: #ffffff;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   text-align: center;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: #4B1B21;
 }
 
 @media (max-width: 960px) {
