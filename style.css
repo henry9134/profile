@@ -1,0 +1,97 @@
+body{
+  background-image: url('images/572949-1640774.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  line-height: normal;
+  background-color: rgb(254, 254, 254);
+  color: #010101;
+  width:  500px;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: normal;
+  text-align: center;
+  text-shadow: none;
+  line-height: normal ;
+  width:  500px;
+  margin: 0 auto;
+}
+p{
+  line-height: 1.5;
+  width:  500px;
+  margin: 0 auto;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(21, 0, 255);
+  width:  500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  width: auto;
+  border-radius: 50%;
+  border: 1px solid #4008f7;
+  width:  500px;
+  margin: 0 auto;
+}
+
+.container {
+  width:  500px;
+  margin: 0 auto;
+}
+
+.card-1, .card-2, .card-3 {
+  background-color: #b5a5ec;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  border: 4px solid #4008f7;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px
+}
+
+.btn-blue{
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
